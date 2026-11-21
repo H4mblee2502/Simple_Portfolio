@@ -1,8 +1,8 @@
 import SocialLinks from "../common/SocialLinks";
 
-export default function Footer() {
-  const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear();
 
+export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-left">

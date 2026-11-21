@@ -1,5 +1,15 @@
 # React + Vite
 
+## Deploy to GitHub Pages
+
+The site is deployed automatically when changes are pushed to `main`. To enable
+deployment, open the repository's **Settings → Pages** and set the build and
+deployment source to **GitHub Actions**. The workflow can then also be started
+manually from the **Actions** tab.
+
+The published site is available at
+https://h4mblee2502.github.io/Simple_Portfolio/.
+
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:

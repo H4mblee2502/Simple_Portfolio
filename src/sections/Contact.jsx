@@ -43,7 +43,7 @@ export default function Contact() {
 
       setSubmitted(true);
       setFormData({ email: "", message: "" });
-    } catch (err) {
+    } catch {
       setError("Something went wrong while sending your message. Please try again.");
     } finally {
       setIsSubmitting(false);
